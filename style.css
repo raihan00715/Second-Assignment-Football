@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    background-color: rgb(45, 45, 134);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.navigation a {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.login:hover {
+    transform: rotateY(360deg);
+    box-shadow: 2px 2px 30px blue;
+    background-color: rgb(236, 11, 41);
+    transition: transform 3s;
+}
+
+header {
+    background-color: rgb(45, 45, 134);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.navigation a {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.login:hover {
+    transform: rotateY(360deg);
+    box-shadow: 2px 2px 30px blue;
+    background-color: rgb(236, 11, 41);
+    transition: transform 3s;
+}
+
+.text-color{
+    color: white;
+    font-size: 64px;
+    width: 485px;
+    height: 230px;
+    margin-left: 156px;
+    margin-top: 207px;
+    
+    
+    
+
+}
+.image-style img{
+    width: 556.01px;
+    height: 438px;
+    padding: 20px;
+    margin-top: 153px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    
+}
+
+.image-style img:hover{
+    width: 556.01px;
+    height: 438px;
+    padding: 20px;
+    margin-top: 153px;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    
+}
+
+
+
+main{
+    background: #2D25A0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+button
+{
+  padding-left: 50px;
+  padding-right: 50px;  
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 155px;
+  margin-top: 30px;
+  color: white;
+  background-color: #E02C6D;
+  border: none;
+  transition: all 0.8s ease;
+}
+
+button:hover
+{
+  padding-left: 50px;
+  padding-right: 50px;  
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 155px;
+  margin-top: 25px;
+  color: #E02C6D;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.9s ease;
+  font-weight: 700;
+  box-shadow: -5px 5px 0px #E02C6D;
+}
+ 
+
+.player-box{
+    box-shadow:  0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    width: 330px;
+    height: 450px;
+    margin:20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.player-box:hover{
+    box-shadow:  0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    width: 330px;
+    height: 450px;
+    margin:20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000000;
+    transition: all 0.5s ease;
+    transform: scale(1.02);
+
+}
+
+.player-box img{
+    width: 300px;
+    height: 256px;
+    left: 15px;
+    top: 15px;
+    border-radius: 5px;
+    
+}
+.h-style{
+    font-size: 25px;
+    padding: 5px;
+}
+.p-style{
+    font-size: small;
+    padding: 5px;
+    font-weight: 300;
+    text-align: justify;
+    color: #6C6C6C;
+}
+.player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 70px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    
+}
+.players{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.footer-logo img{
+    width: 300px;
+    height: 75px;
+    
+}
+
+
+.icon-style{
+    padding: 5px;
+    align-items: center;
+}
+.fa-instagram{
+    color: #969BAB;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #E7E7E8;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+.fa-futbol{
+    color: #969BAB;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #E7E7E8;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+.fa-twitter{
+    color: #969BAB;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #E7E7E8;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+.fa-youtube{
+    color: #969BAB;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #E7E7E8;
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+.fa-facebook-square{
+    color: #969BAB;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #E7E7E8;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+.detals-style{
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.footer-style{
+    margin-left: 482px;
+    align-items: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/*Mobile Responsive*/
+ @media only screen and (max-width:688px) {
+
+    html, body
+    {
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    } 
+    
+    .container{
+         grid-template-columns: repeat(1,1fr);
+          
+     }
+     .text-color{
+        color: white;
+        font-size: 30px;
+        width: 225px;
+        height: 200px;
+        margin-left: 85px;
+        margin-top: 20px;
+        margin-bottom: -65px; 
+    }
+
+    button
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 85px;
+    margin-top: -70px;
+    color: white;
+    background-color: #E02C6D;
+    border: none;
+    transition: all 0.8s ease;
+}
+
+button:hover
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 85px;
+    margin-top: -70px;
+    color: #E02C6D;
+    background-color: white;
+    border: none;
+    transition: all 0.8s ease;
+    border-radius: 50px;
+    transition: all 0.9s ease;
+    font-weight: 700;
+    box-shadow: -5px 5px 0px #E02C6D;
+}
+
+    
+    .image-style img{
+        width: 390px;
+        height: 345px;
+        padding: 40px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-bottom: 60px; 
+    }
+    
+     
+
+     .player{
+         grid-template-columns: repeat(1,1fr);
+         margin-left: -6px;
+         margin-top: auto;
+         
+     }
+
+
+    
+     .footer-style{
+         grid-template-columns: repeat(1,1fr);
+         margin-left: 55px;
+     }
+
+     .footer-logo img{
+        width: 208.1px;
+        height: 54px;
+        margin-left: -4px;
+        
+    }
+
+    .icon-style{
+        padding: 0px;
+        align-items: center;
+    }
+    .fa-instagram{
+        color: rgba(143, 143, 250, 0.993);
+        padding: 10px;
+        font-size: 20px;
+        background-color: gray;
+        border-radius: 20px;
+        margin: 0px;
+    
+    }
+    
+    .fa-futbol{
+        color: rgba(143, 143, 250, 0.993);
+        padding: 10px;
+        font-size: 20px;
+        background-color: gray;
+        border-radius: 20px;
+        margin: 0px;
+    
+    }
+    .fa-twitter{
+        color: rgba(143, 143, 250, 0.993);
+        padding: 10px;
+        font-size: 20px;
+        background-color: gray;
+        border-radius: 20px;
+        margin: 0px;
+    
+    }
+    .fa-youtube{
+        color: rgba(143, 143, 250, 0.993);
+        padding: 10px;
+        font-size: 20px;
+        background-color: gray;
+        border-radius: 20px;
+        margin: 0px;
+        
+    }
+    .fa-facebook-square{
+        color: rgba(143, 143, 250, 0.993);
+        padding: 10px;
+        font-size: 20px;
+        background-color: gray;
+        border-radius: 20px;
+        margin: 0px;
+    
+    }
+
+    .detals-style{
+    font-size: 17px;
+    margin-left: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    }
+
+}
+
